@@ -1,0 +1,41 @@
+# xbindkey config thinkpad 
+x260
+
+# find key codes with xev
+
+# keyboard backlight works out of the box!
+# toggle  WLAN with XF86WLAN too!
+
+# screen brightness with ligh-git
+"light -U 10"
+     XF86MonBrightnessDown
+
+"light -A 10"
+     XF86MonBrightnessUp
+
+# alsa volume controls
+"amixer set Master 5%-"
+     XF86AudioLowerVolume
+
+"amixer set Master 5%+"
+     XF86AudioRaiseVolume
+
+"amixer set Master toggle"
+     XF86AudioMute
+
+"amixer set Mic toggle"
+     XF86AudioMicMute
+
+# mpd controls with mpc
+"mpc -q  prev"
+     XF86Search
+
+"mpc -q toggle"
+     XF86LaunchA
+
+"mpc -q next"
+     XF86Explorer
+
+# not mapped
+#     XF86Display
+#     XF86Tools

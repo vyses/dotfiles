@@ -1,0 +1,12 @@
+
+gtk-can-change-accels = 1
+
+gtk-icon-theme-name = "Paper"
+gtk-theme-name = "Arc-Darker"
+
+style "user-font"
+{
+        font_name="NotoSans-Regular 12"
+}
+widget_class "*" style "user-font"
+gtk-font-name = "NotoSans-Regular 12"
