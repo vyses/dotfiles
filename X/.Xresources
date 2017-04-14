@@ -2,6 +2,7 @@
 URxvt.scrollBar:	false
 URxvt.scrollstyle:      plain
 URxvt.secondaryScroll:  true
+URxvt.pointerBlank:	true
 URxvt.saveLines:        5000
 !URxvt.visualBell:      true
 URxvt.font:             xft:Hack:autohint=true:size=15, \
