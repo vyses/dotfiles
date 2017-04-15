@@ -1,0 +1,46 @@
+
+# settings
+set font "NotoSans-Regular 12"
+set adjust-open best-fit
+set selection-clipboard clipboard
+set scroll-wrap true
+set scroll-full-overlap 0.1
+set smooth-scroll true
+set window-title-basename true
+set page-padding 10
+
+
+# color
+#set recolor-keephue true
+set recolor-darkcolor  "#D8DEE9"
+set recolor-lightcolor "#2E3440"
+set default-fg "#D8DEE9"
+set default-bg "#2E3440"
+set statusbar-fg "#ECEFF4"
+set statusbar-bg "#4C566A"
+set tabbar-bg "#2E3440"
+set tabbar-fg "#D8DEE9"
+set tabbar-focus-bg "#ECEFF4"
+set tabbar-focus-fg "#4C566A"
+set inputbar-fg "#ECEFF4"
+set inputbar-bg "#4C566A"
+set completion-highlight-fg "#2E3440"
+set completion-highlight-bg "#A3BE8C"
+set highlight-color "#81A1C1"
+set highlight-active-color "#EBCB8B"
+set notification-fg "#ECEFF4"
+set notification-bg "#4C566A"
+
+
+# fullscreen keybindings
+map [fullscreen] a adjust_window best-fit
+map [fullscreen] s adjust_window width
+map [fullscreen] f follow
+map [fullscreen] d toggle_page_mode 2
+map [fullscreen] <Tab> toggle_index
+map [fullscreen] j scroll down
+map [fullscreen] k scroll up
+map [fullscreen] <C-d> scroll half-down
+map [fullscreen] <C-u> scroll half-up
+map [fullscreen] <C-o> jumplist backward
+map [fullscreen] <C-i> jumplist forward
