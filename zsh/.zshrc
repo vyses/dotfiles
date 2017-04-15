@@ -12,7 +12,7 @@ source ~/.config/zsh/colors.zsh
 source ~/.config/zsh/setopt.zsh
 source ~/.config/zsh/aliases.zsh
 source ~/.config/zsh/termtitle.zsh
-
+source ~/.config/zsh/pl9kprompt.zsh
 
 
 # history settings
@@ -26,7 +26,7 @@ export BROWSER="firefox"
 export EDITOR="nano"
 
 
-zstyle :compinstall filename '/home/vy246/.zshrc'
+#zstyle :compinstall filename '/home/vy246/.zshrc'
 
 autoload -Uz compinit promptinit
 compinit
