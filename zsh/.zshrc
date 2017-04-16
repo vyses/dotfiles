@@ -37,6 +37,8 @@ prompt redhat
 
 # completion
 zstyle ':completion:*' menu select
+_comp_options+=(globdots)
+
 
 # connect MPD to unix socket
 export MPD_HOST=/home/vy246/.config/mpd/socket
