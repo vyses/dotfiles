@@ -34,6 +34,10 @@ gaps inner 10
 gaps outer 5
 # smart_gaps on
 
+# i3lock pixelate script
+bindsym $mod+Delete exec ~/.config/i3/pixel_i3lock.sh
+
+
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
