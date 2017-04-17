@@ -1,6 +1,6 @@
 
 # settings
-set font "NotoSans-Regular 12"
+set font "NotoSans-Regular 16"
 set adjust-open best-fit
 set selection-clipboard clipboard
 set scroll-wrap true
@@ -18,6 +18,11 @@ set default-fg "#D8DEE9"
 set default-bg "#2E3440"
 set statusbar-fg "#ECEFF4"
 set statusbar-bg "#4C566A"
+
+set inputbar-bg "#1B2B34"
+set inputbar-fg "#4F5B66"
+
+
 set tabbar-bg "#2E3440"
 set tabbar-fg "#D8DEE9"
 set tabbar-focus-bg "#ECEFF4"
@@ -26,10 +31,24 @@ set inputbar-fg "#ECEFF4"
 set inputbar-bg "#4C566A"
 set completion-highlight-fg "#2E3440"
 set completion-highlight-bg "#A3BE8C"
+
+#set completion-bg "#4F5B66"
+#set completion-fg "#5FB3B3"
+
 set highlight-color "#81A1C1"
 set highlight-active-color "#EBCB8B"
 set notification-fg "#ECEFF4"
 set notification-bg "#4C566A"
+
+
+#set notification-bg             "#99C794"
+#set notification-fg "#1B2B34"
+#set notification-error-bg       "#EC5f67"
+#set notification-error-fg       "#1B2B34"
+#set notification-warning-bg     "#EC5f67"
+#set notification-warning-fg     "#1B2B34"
+
+
 
 
 # fullscreen keybindings
