@@ -48,7 +48,7 @@ font-2 = Noto Sans CJK JP:size=12;2
 
 modules-left = i3
 modules-center = xwindow
-modules-right = redshift volume wlan eth network battery date
+modules-right = redshift backlight-acpi volume wlan eth network battery date
 
 ;tray-position = right
 ;tray-padding = 2
@@ -172,7 +172,7 @@ label-song-ellipsis = true
 type = internal/xbacklight
 
 format = <label>
-label = %percentage%%
+label =  %percentage%%
 
 bar-width = 10
 bar-indicator = |
