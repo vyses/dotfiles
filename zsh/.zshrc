@@ -26,13 +26,11 @@ export BROWSER="firefox"
 export EDITOR="nano"
 
 
-#zstyle :compinstall filename '/home/vy246/.zshrc'
-
-autoload -Uz compinit promptinit
+autoload -Uz compinit
 compinit
-promptinit
+#promptinit
 
-prompt redhat
+#prompt redhat
 
 
 # completion
@@ -41,5 +39,5 @@ _comp_options+=(globdots)
 
 
 # connect MPD to unix socket
-export MPD_HOST=/home/vy246/.config/mpd/socket
+export MPD_HOST=~/.config/mpd/socket
 

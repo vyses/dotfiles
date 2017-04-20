@@ -17,7 +17,7 @@ HISTSIZE=5000
 HISTFILESIZE=2000
 
 # connect MPD to unix socket
-export MPD_HOST=/home/vy246/.config/mpd/socket
+export MPD_HOST=~/.config/mpd/socket
 
 # source fzf keybindings/bash completion
 source /usr/share/fzf/key-bindings.bash
