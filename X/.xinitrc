@@ -19,10 +19,13 @@ setxkbmap -model thinkpad -layout ch -option ctrl:swapcaps
 xbindkeys
 
 # thinkpad trackpoint & touchpad
-xinput set-prop "12" "Accel Speed" "0.5"
+# xinput set-prop "12" "Accel Speed" "0.5"
 
-xinput set-prop "11" "Device Accel Constant Deceleration" "3"
-xinput set-prop "11" "Device Accel Adaptive Deceleration" "2"
+# xinput set-prop "11" "Device Accel Constant Deceleration" "3"
+# xinput set-prop "11" "Device Accel Adaptive Deceleration" "2"
+
+# set DPI (the X260 display has 176dpi, but it is set to 168 dpi for proper scaling of bitmap GUI)
+xrandr --dpi 168
 
 
 # set wallpaper
