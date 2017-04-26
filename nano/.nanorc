@@ -1,5 +1,5 @@
 # line numbers
-set const
+set linenumbers
 
 # syntax highlighting
 include "~/.nano/apacheconf.nanorc"
