@@ -24,8 +24,8 @@ xbindkeys
 # xinput set-prop "11" "Device Accel Constant Deceleration" "3"
 # xinput set-prop "11" "Device Accel Adaptive Deceleration" "2"
 
-# set DPI (the X260 display has 176dpi, but it is set to 168 dpi for proper scaling of bitmap GUI)
-xrandr --dpi 168
+# set DPI (X260 screen: 1920x1080/277x156mm/176x176dpi. 290x163mm would result in dpi 168 for proper scaling of bitmap GUI based on dpi 96)
+xrandr --fbmm 277x156
 
 
 # set wallpaper
