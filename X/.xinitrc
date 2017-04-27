@@ -34,8 +34,16 @@ sh ~/.fehbg &
 # MPD daemon start (if no other user instance exists)
 [ ! -s ~/.config/mpd/pid ] && mpd
 
-#start redshift
+# start redshift
 pgrep redshift &> /dev/null || redshift &> /dev/null &
+
+
+# start fcitx for japanese input
+export XMODIFIERS=@im=fcitx
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+fcitx -d -r
+
 
 # start x starts WM
 exec i3
