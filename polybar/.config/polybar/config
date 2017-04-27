@@ -44,11 +44,11 @@ module-margin-right = 2
 
 font-0 = NotoSans-Regular:size=12;2
 font-1 = FontAwesome:size=12;2
-font-2 = Noto Sans CJK JP:size=12;2
+font-2 = IPAGothic:size=12;2
 
 modules-left = i3
 modules-center = xwindow
-modules-right = redshift backlight-acpi volume wlan eth network battery date
+modules-right = redshift volume backlight-acpi battery wlan eth network date
 
 ;tray-position = right
 ;tray-padding = 2
@@ -172,7 +172,7 @@ label-song-ellipsis = true
 type = internal/xbacklight
 
 format = <label>
-label =  %percentage%%
+label =  %percentage%
 
 bar-width = 10
 bar-indicator = |
@@ -245,7 +245,7 @@ type = internal/date
 interval = 5
 
 date = %a
-date-alt = "%a %Y/%m/%d"
+date-alt = "%a %Y.%m.%d"
 
 time = %H:%M
 time-alt = %H:%M
@@ -293,6 +293,10 @@ format-charging =  <label-charging>
 format-discharging = <ramp-capacity> <label-discharging>
 
 format-full-prefix = " "
+
+label-charging = %percentage%
+label-discharging = %percentage%
+
 
 ramp-capacity-0 = 
 ramp-capacity-1 = 
