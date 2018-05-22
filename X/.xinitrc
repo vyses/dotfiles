@@ -27,6 +27,8 @@ xbindkeys
 # set DPI (X260 screen: 1920x1080/277x156mm/176x176dpi. 290x163mm would result in dpi 168 for proper scaling of bitmap GUI based on dpi 96)
 xrandr --fbmm 277x156
 
+# -R restores the last colorscheme  that was in use
+wal -R
 
 # set wallpaper
 sh ~/.fehbg &
@@ -38,11 +40,11 @@ sh ~/.fehbg &
 pgrep redshift &> /dev/null || redshift &> /dev/null &
 
 
-# start fcitx for japanese input
-export XMODIFIERS=@im=fcitx
-export GTK_IM_MODULE=fcitx
-export QT_IM_MODULE=fcitx
-fcitx -d -r
+## start fcitx for japanese input
+# export XMODIFIERS=@im=fcitx
+# export GTK_IM_MODULE=fcitx
+# export QT_IM_MODULE=fcitx
+# fcitx -d -r
 
 
 # start x starts WM

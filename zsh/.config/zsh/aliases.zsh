@@ -4,7 +4,7 @@ alias reboot='sudo systemctl reboot'
 alias poweroff='sudo systemctl poweroff'
 alias wifi-menu='sudo wifi-menu'
 
-alias weather='curl "wttr.in/Basel?0qT"'
+alias wttr='curl "wttr.in/Basel?0qT"'
 
 ## modified commands
 alias grep='grep --color=auto'
