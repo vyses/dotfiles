@@ -55,7 +55,7 @@ font-2 = IPAGothic:size=12;2
 
 modules-left = i3
 modules-center = xwindow
-modules-right = redshift volume backlight-acpi battery wlan eth network date
+modules-right = redshift volume backlight-acpi battery wlan eth date
 
 ;tray-position = right
 ;tray-padding = 2
@@ -296,7 +296,7 @@ battery = BAT1
 adapter = AC
 full-at = 98
 
-format-charging = <> <label-charging>
+format-charging = <ramp-capacity> <label-charging>
 
 format-discharging = <ramp-capacity> <label-discharging>
 
